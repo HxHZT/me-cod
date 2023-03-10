@@ -1,0 +1,61 @@
+body{
+  background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-japan-travel-poster-background-picture-image_1087482.jpg);
+    }
+h1,h2,h3,h4,h5{
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 10px;
+  color: red;
+}
+p{
+  text-align: justify;
+  letter-spacing: 2px;
+  font-size: 16px;
+  margin: 20px;
+  color: blue;
+}
+hr{
+  background-color: red;
+ color:red;
+ height: 3px;
+}
+.img1{
+  width: 200px;
+  float: right;
+  margin: 20px;
+  border: solid 3px red;
+  
+}
+h6{
+  text-align: left;
+  font-size: 16px;
+  margin-top: 0;
+  margin-left: 50px;
+}
+.img2{
+  width: 200px;
+  float: right;
+  margin:30px;
+  border: solid 3px red;
+  height: 150px;
+  margin-bottom: 200px;
+}
+.g{
+  text-align: justify;
+  letter-spacing: 2px;
+  font-size: 16px;
+  margin: 20px;
+  color: red;
+}
+.downup{
+  width: 50px;
+  float: right;
+  margin-left: 1500px;
+}
+.up{
+  width: 50px;
+  float: right;
+  margin-left: 1500px;
+}
+

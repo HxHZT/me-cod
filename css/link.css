@@ -1,0 +1,73 @@
+body{
+  background-color: pink;
+}
+P{
+  font-size: 50px;
+  font-family: serif;
+  color: orange;
+}
+a{
+  margin: 10px;
+  text-decoration: none;
+  color: red;
+}
+a:active{
+  background-color: blue;
+  
+}
+.fb{
+width: 150px;
+height: 50px;
+font-size: 24px;
+font-family: cursive;
+color: aqua;
+background: linear-gradient(#00c3ff,#ffff1c);
+border: dotted 2px red;
+box-shadow: 3px 3px 6px black,-3px -3px 6px black;
+}
+.fb:hover{
+  border-radius: 10px;
+  border: dashed 3px yellowgreen;
+  background: linear-gradient(#ff00cc,#333399);
+  color: red;
+  text-transform: uppercase;
+  width: 180px;
+}
+
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 250px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}

@@ -1,0 +1,38 @@
+body{
+  background-color: pink;
+ }
+ p{
+  font-size: 50px;
+  color: maroon;
+  text-align: center;
+ }
+table{
+    border: ridge 7px red;
+    width: 50%;
+    margin: auto;
+    background: linear-gradient( 90deg,#3494E6,#EC6EAD);
+    border-collapse: collapse;
+}
+th,td{
+  border: solid 3px blue;
+  border-collapse: collapse;
+  width: 25%;
+  height: 1cm;
+  font-size: 24px;
+}
+tr:hover{
+  background-color: grey;
+ }
+ td:hover{
+  background: linear-gradient( 0deg,#ee0979,#ff6a00);
+  color: white;
+  font-size: 2em;
+  text-align: center;
+ }
+ tr:nth-child(even){
+  background-color: gold;
+ }
+ caption{
+  font-size: 50px;
+  color: fuchsia;
+ }

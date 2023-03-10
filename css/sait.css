@@ -1,0 +1,129 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+*{
+  
+  margin: 0;
+  
+}
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 30px;
+  text-align: center;
+}
+header{
+  background-color: lightcoral;
+  height: 200px;
+}
+#menu{
+  width: 30%;
+  background-color: white;
+  height: auto;
+  float: left;
+  padding-bottom: 5px;
+}
+#content{
+  background-color: white;
+  height: auto;
+  float: left;
+  width: 70%;
+}
+footer{
+  background-color: lightblue;
+  height: 200px;
+  float: left;
+  width: 100%;
+}
+.if{
+  float: left;
+}
+.video1{
+  float: right;
+  margin-right: 30px;
+}
+.bgvideo{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgvideo video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.textvideo{
+  z-index: 2;
+  color: white;
+}
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 250px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: 
+#fff;
+    border: 1px solid 
+#ccc;
+    box-shadow: 0 2px 4px 
+rgba(0,0,0,0.15), inset 0 0 50px 
+rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: 
+#000;
+}
+.youtube a:hover {background: 
+  #c4302b; color: 
+  #fff;}
+  .instagram a:hover {background: 
+    #3f729b; color: 
+    #fff;}
+    .telegram a:hover {background: 
+      #249bd7; color: 
+      #fff;}

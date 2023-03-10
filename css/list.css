@@ -1,0 +1,59 @@
+body{
+  background-color: maroon;
+}
+p{
+  font-size: 50px;
+  font-family: 'Shantell Sans', cursive;
+  text-align: right;
+}
+ul,ol{
+  font-size: 24px;
+  color: violet;
+  font-family: 'Shantell Sans', cursive;
+  margin-left: 200px;  
+}
+.aling{
+  
+  margin-left: 200px;
+}
+.aling2{
+  margin-left: 200px;
+}
+.li1{
+  list-style-type:'🦍';
+  
+
+}
+ul li::marker{
+  color: aqua;
+font-size: 150%;
+}
+ol li::marker{
+  color: blue;
+  font-weight: bold;
+}
+table{
+  border: groove 8px black;
+   height: 10px;
+   margin: auto;
+   margin-bottom: 200px;
+}
+th,td,tr{
+  border: solid 5px black;
+  height: 10px;
+  font-size: 24px;
+  
+}
+p{
+  font-size: 30px;
+}
+.d{
+  padding: 20px;
+  margin: 20px;
+}
+caption{
+  font-size: 30px;
+}
+.li2 li{
+  list-style-type:'\1F359';
+}
