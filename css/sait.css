@@ -86,6 +86,7 @@ footer{
   width: 250px;
   line-height: 30px;
   margin-top: 10px;
+  margin-left:10px
 }
 
 .button-81:hover {
@@ -117,6 +118,7 @@ rgba(0,0,0,0.1);
     padding: 6px;
     color: 
 #000;
+   margin-left:10px
 }
 .youtube a:hover {background: 
   #c4302b; color: 
